@@ -1,5 +1,6 @@
 package net.casper.azuritemod;
 
+import net.casper.azuritemod.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
 import net.casper.azuritemod.item.ModItems;
@@ -14,5 +15,6 @@ public class AzuriteMod implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
     }
 }
