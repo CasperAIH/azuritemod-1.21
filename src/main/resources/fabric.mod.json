@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "azuritemod",
+	"version": "${version}",
+	"name": "AzuriteMod",
+	"description": "This mod adds Azure !",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/azuritemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.casper.azuritemod.AzuriteMod"
+		],
+		"fabric-datagen": [
+			"net.casper.azuritemod.AzuriteModDataGenerator"
+		],
+      "client": [
+        "net.casper.azuritemod.AzuriteModClient"
+      ]
+	},
+	"mixins": [
+		"azuritemod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
