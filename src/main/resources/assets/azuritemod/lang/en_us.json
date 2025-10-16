@@ -1,5 +1,7 @@
 {
   "item.azuritemod.azurite_ingot": "Azurite Ingot",
-  "item.azuritemod.raw_azurite": "Raw Azurite"
+  "item.azuritemod.raw_azurite": "Raw Azurite",
+
+  "block.azuritemod.azurite_block": "Block Of Azurite"
 
 }

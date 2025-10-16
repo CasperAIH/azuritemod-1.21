@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "azuritemod:block/azurite_block"
+    }
+  }
+}
