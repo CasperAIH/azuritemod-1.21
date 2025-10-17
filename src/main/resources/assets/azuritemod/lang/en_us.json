@@ -4,7 +4,8 @@
   "item.azuritemod.dilly": "Dilly",
 
   "block.azuritemod.azurite_block": "Block Of Azurite",
-  "block.azuritemod.dilly_block": "Block Of Dilly",
+  "block.azuritemod.dilly_block": "Dilly Block",
+  "block.azuritemod.deepslate_azurite_ore_block": "Deepslate Azurite Ore",
 
   "itemgroup.azuritemod.azurite_items": "Azurite Items",
   "itemgroup.azuritemod.azurite_blocks": "Azurite Blocks",

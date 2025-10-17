@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "azuritemod:block/deepslate_azurite_ore_block"
+    }
+  }
+}

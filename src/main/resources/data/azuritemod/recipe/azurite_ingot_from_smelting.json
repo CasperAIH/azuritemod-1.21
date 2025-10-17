@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "azurite_ingot",
+  "ingredient": {
+    "item": "azuritemod:raw_azurite"
+  },
+  "result": {
+    "id": "azuritemod:azurite_ingot"
+  }
+}

@@ -26,6 +26,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.azuritemod.azurite_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.AZURITE_BLOCK);
+                        entries.add(ModBlocks.DEEPSLATE_AZURITE_ORE);
                     }).build());
 
     public static final ItemGroup DILLY_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -34,7 +35,6 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.azuritemod.dilly_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.DILLY_BLOCK);
-                        entries.add(ModBlocks.AZURITE_BLOCK);
                         entries.add(ModItems.DILLY);
                     })
                     .build()
