@@ -13,9 +13,13 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+
     public static final Block AZURITE_BLOCK = registerBlock("azurite_block",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block DILLY_BLOCK = registerBlock("dilly_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)));
 
 
     private static Block registerBlock(String name, Block block) {
@@ -33,6 +37,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.AZURITE_BLOCK);
+            entries.add(ModBlocks.DILLY_BLOCK);
 
         });
     }

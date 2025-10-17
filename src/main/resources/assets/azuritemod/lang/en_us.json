@@ -1,7 +1,13 @@
 {
   "item.azuritemod.azurite_ingot": "Azurite Ingot",
   "item.azuritemod.raw_azurite": "Raw Azurite",
+  "item.azuritemod.dilly": "Dilly",
 
-  "block.azuritemod.azurite_block": "Block Of Azurite"
+  "block.azuritemod.azurite_block": "Block Of Azurite",
+  "block.azuritemod.dilly_block": "Block Of Dilly",
+
+  "itemgroup.azuritemod.azurite_items": "Azurite Items",
+  "itemgroup.azuritemod.azurite_blocks": "Azurite Blocks",
+  "itemgroup.azuritemod.dilly_blocks": "Dilly"
 
 }

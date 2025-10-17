@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item AZURITE_INGOT = registerItem("azurite_ingot", new Item(new Item.Settings()));
     public static final Item RAW_AZURITE = registerItem("raw_azurite", new Item(new Item.Settings()));
+    public static final Item DILLY = registerItem("dilly", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(AzuriteMod.MOD_ID, name), item);
@@ -23,6 +24,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(AZURITE_INGOT);
             entries.add(RAW_AZURITE);
+            entries.add(DILLY);
         });
     }
 }
