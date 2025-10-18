@@ -18,8 +18,7 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
-    public static final Block DILLY_BLOCK = registerBlock("dilly_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+
 
     public static final Block DEEPSLATE_AZURITE_ORE = registerBlock("deepslate_azurite_ore_block",
             new Block(AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
@@ -40,7 +39,6 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.AZURITE_BLOCK);
-            entries.add(ModBlocks.DILLY_BLOCK);
             entries.add(ModBlocks.DEEPSLATE_AZURITE_ORE);
 
         });

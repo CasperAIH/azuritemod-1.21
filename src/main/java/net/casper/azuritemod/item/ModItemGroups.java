@@ -29,16 +29,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_AZURITE_ORE);
                     }).build());
 
-    public static final ItemGroup DILLY_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(AzuriteMod.MOD_ID, "dilly_blocks"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.DILLY))
-                    .displayName(Text.translatable("itemgroup.azuritemod.dilly_blocks"))
-                    .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.DILLY_BLOCK);
-                        entries.add(ModItems.DILLY);
-                    })
-                    .build()
-    );
+
+
 
 
 
